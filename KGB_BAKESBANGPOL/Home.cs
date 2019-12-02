@@ -1,5 +1,4 @@
-﻿//heheheheheheeh
-using MySql.Data.MySqlClient;
+﻿using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -66,6 +65,14 @@ namespace KGB_BAKESBANGPOL
             xx.passValue(username);
             this.Hide();
             xx.Show();
+        }
+
+        private void caridata_Click(object sender, EventArgs e)
+        {
+            caridata cari = new caridata();
+            cari.passValue(username);
+            this.Hide();
+            cari.Show();
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
